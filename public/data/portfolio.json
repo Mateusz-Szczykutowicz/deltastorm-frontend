@@ -1,0 +1,90 @@
+[
+    {
+        "id": 0,
+        "title": "Drukarnia Dorand",
+        "tags": ["HTML", "SCSS", "JavaScript", "Node.js", "Express.js"],
+        "content": "Niekomercyjny projekt wykonany dla lokalnej drukarnii. Wykonany został w celach nauki praktycznej. Dzięki temu projektowi mogłem poznać jak wygląda komunikacja z klientem, jakie oczekiwania ma klient oraz jak wygląda pracowanie z klientem. Zastosowane technologie to HTML, SCSS oraz JavaScrip, gdyż jest to prosta strona wizytówka, a także Node.js oraz Express.js w celach stworzenia serwera do zarządzania formularzem kontaktowym, dzięki któremu można wysyłać emaile do klienta.",
+        "img": "https://finanse-przedsiebiorcy.pl/wp-content/uploads/2021/10/placeholder.png",
+        "live": "https://example.com/"
+    },
+    {
+        "id": 1,
+        "title": "Portfolio",
+        "tags": ["HTML", "SCSS", "JavaScript"],
+        "content": "Lorem ipsum dolor sit amet.",
+        "img": "https://finanse-przedsiebiorcy.pl/wp-content/uploads/2021/10/placeholder.png",
+        "live": "https://example.com/"
+    },
+    {
+        "id": 2,
+        "title": "Portfolio",
+        "tags": ["HTML", "SCSS", "JavaScript"],
+        "content": "Lorem ipsum dolor sit amet.",
+        "live": "https://example.com/",
+        "img": "https://finanse-przedsiebiorcy.pl/wp-content/uploads/2021/10/placeholder.png"
+    },
+    {
+        "id": 3,
+        "title": "Portfolio",
+        "tags": ["HTML", "SCSS", "JavaScript"],
+        "content": "Lorem ipsum dolor sit amet.",
+        "live": "https://example.com/",
+        "img": "https://finanse-przedsiebiorcy.pl/wp-content/uploads/2021/10/placeholder.png"
+    },
+    {
+        "id": 4,
+        "title": "Portfolio",
+        "tags": ["HTML", "SCSS", "JavaScript"],
+        "content": "Lorem ipsum dolor sit amet.",
+        "live": "https://example.com/",
+        "img": "https://finanse-przedsiebiorcy.pl/wp-content/uploads/2021/10/placeholder.png"
+    },
+    {
+        "id": 5,
+        "title": "Portfolio",
+        "tags": ["HTML", "SCSS", "JavaScript"],
+        "content": "Lorem ipsum dolor sit amet.",
+        "live": "https://example.com/",
+        "img": "https://finanse-przedsiebiorcy.pl/wp-content/uploads/2021/10/placeholder.png"
+    },
+    {
+        "id": 6,
+        "title": "Nowy",
+        "tags": ["HTML", "SCSS", "JavaScript"],
+        "content": "Lorem ipsum dolor sit amet.",
+        "live": "https://example.com/",
+        "img": "https://finanse-przedsiebiorcy.pl/wp-content/uploads/2021/10/placeholder.png"
+    },
+    {
+        "id": 7,
+        "title": "Nowy",
+        "tags": ["HTML", "SCSS", "JavaScript"],
+        "content": "Lorem ipsum dolor sit amet.",
+        "live": "https://example.com/",
+        "img": "https://finanse-przedsiebiorcy.pl/wp-content/uploads/2021/10/placeholder.png"
+    },
+    {
+        "id": 8,
+        "title": "Nowy",
+        "tags": ["HTML", "SCSS", "JavaScript"],
+        "content": "Lorem ipsum dolor sit amet.",
+        "live": "https://example.com/",
+        "img": "https://finanse-przedsiebiorcy.pl/wp-content/uploads/2021/10/placeholder.png"
+    },
+    {
+        "id": 9,
+        "title": "Nowy",
+        "tags": ["HTML", "SCSS", "JavaScript"],
+        "content": "Lorem ipsum dolor sit amet.",
+        "live": "https://example.com/",
+        "img": "https://finanse-przedsiebiorcy.pl/wp-content/uploads/2021/10/placeholder.png"
+    },
+    {
+        "id": 10,
+        "title": "Nowy",
+        "tags": ["HTML", "SCSS", "JavaScript", "Node.js", "Express.js"],
+        "content": "Lorem ipsum dolor sit amet.",
+        "live": "https://example.com/",
+        "img": "https://finanse-przedsiebiorcy.pl/wp-content/uploads/2021/10/placeholder.png"
+    }
+]

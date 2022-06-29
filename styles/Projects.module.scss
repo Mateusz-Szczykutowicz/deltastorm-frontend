@@ -1,0 +1,146 @@
+.container {
+    position: relative;
+    width: 100vw;
+    min-height: 100vh;
+    .main {
+        padding: 50px 30px 25px 30px;
+
+        @media (min-width: 720px) {
+            padding: 50px 80px 50px 80px;
+        }
+        @media (min-width: 1280px) {
+            max-width: 1200px;
+            padding: 0;
+            margin: 0 auto;
+            margin-bottom: 60px;
+            margin-top: 25vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        h2 {
+            font-size: 20px;
+        }
+        .projectsWrapper {
+            margin-top: 25px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px 0;
+            @media (min-width: 1280px) {
+                gap: 50px 50px;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+            .projectWrapper {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 330px;
+                height: 100px;
+                background-color: #eae6ff50;
+                border-radius: 27px;
+                border: 1px solid #eae6ff;
+                padding: 10px 12px;
+                @media (min-width: 720px) {
+                    width: 560px;
+                    height: 160px;
+                    align-items: flex-start;
+                }
+                @media (min-width: 1280px) {
+                    height: 180px;
+                }
+                .content {
+                    // background-color: cadetblue;
+                    width: 60%;
+                    margin-right: 10px;
+                    // padding-top: 2px;
+                    padding-left: 8px;
+                    @media (min-width: 720px) {
+                        padding-top: 12px;
+                        padding-left: 8px;
+                        margin-right: 20px;
+                    }
+                    // background-color: brown;
+                    h3 {
+                        font-size: 16px;
+                        cursor: pointer;
+                        @media (min-width: 720px) {
+                            font-size: 20px;
+                        }
+                    }
+                    h4 {
+                        color: #d2c9ff;
+                        // margin-top: 5px;
+                        font-size: 12px;
+                        @media (min-width: 720px) {
+                            margin-top: 16px;
+                        }
+                    }
+                    .tags {
+                        margin-top: 3px;
+                        display: flex;
+                        flex-wrap: wrap;
+                        gap: 5px 10px;
+                        @media (min-width: 720px) {
+                            margin-top: 8px;
+                        }
+                        .tag {
+                            color: #d2c9ff;
+                            font-size: 9px;
+                            padding: 3px 6px;
+                            border: 1px solid #eae6ff;
+                            border-radius: 23px;
+                            @media (min-width: 720px) {
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                }
+                .imageWrapper {
+                    position: relative;
+                    flex-grow: 1;
+                    width: 40%;
+                    height: 100%;
+                    font-size: 12px;
+                    // background-color: brown;
+                    border-radius: 18px;
+                    overflow: hidden;
+                    @media (min-width: 720px) {
+                        border-radius: 27px;
+                    }
+                    img {
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+    }
+    .navButtons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0 40px;
+        @media (min-width: 1280px) {
+            gap: 0 80px;
+        }
+        .navButton {
+            color: #eae6ff;
+            font-size: 12px;
+            padding: 6px 20px;
+            background-color: #eae6ff50;
+            border: 1px solid #eae6ff;
+            border-radius: 27px;
+            opacity: 0.5;
+            @media (min-width: 1280px) {
+                font-size: 24px;
+            }
+        }
+        .active {
+            opacity: 1;
+        }
+    }
+}
